@@ -1,8 +1,8 @@
-function takeANumber(currentLine, newCustomer) {
-  currentLine.push(newCustomer);
-  var linePosition = currentLine.length;
-  return `Welcome, ${newCustomer}. You are number ${linePosition} in line.`
-}
+// function takeANumber(currentLine, newCustomer) {
+//   currentLine.push(newCustomer);
+//   var linePosition = currentLine.length;
+//   return `Welcome, ${newCustomer}. You are number ${linePosition} in line.`
+// }
 
 function nowServing(katzDeliLine) {
   var nextClient = katzDeliLine[0];
