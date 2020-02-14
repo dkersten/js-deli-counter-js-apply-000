@@ -4,11 +4,11 @@
 //   return `Welcome, ${newCustomer}. You are number ${linePosition} in line.`
 // }
 
+var i = 0;
 function takeANumber() {
-  var i = 0;
+  i++;
   
-  
-  return `Welcome you are ${currentnum}`
+  return `Welcome you are ${i}`
 }
 
 function nowServing(katzDeliLine) {
